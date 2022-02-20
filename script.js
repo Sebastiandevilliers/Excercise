@@ -1,29 +1,30 @@
 
 function printCon(){
+    var rt;
     const word = [];
     const tree = document.getElementById('text').value;
     alert(tree);
     
     var size = tree.length;
     alert(size);
-    for(i = size; i>=0; i--){
-        for(j = 0; j<size; j++){
-        car [j] = tree.charAt(i);
-        console.log(car[j]);
-        alert(car[j]);
+    for( let i = size -1; i>=0; i--){
+       rt = rt.concat(tree.charAt(i));
+       
+       
+       
+      
         }
-
+        
+        alert (rt);
+        stop;
+      
     }
 
-    alert(car[1]);
 
     
-}
 
-function answer(){
-   
-  
+ //   for(let j = 0; j<=4; j++){
+  //      console.log(word[j]);
+ //   }
 
-}
 
-answer();
